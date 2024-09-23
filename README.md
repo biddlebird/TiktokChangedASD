@@ -16,5 +16,6 @@ This study aims to understand TikTok's role in increasing ASD awareness, buildin
 
 **Methods:**  
 - **Content Analysis:** Evaluate ASD-related TikTok videos.
+- **CDC Analysis:** Evaluate the growth (or lack of) in ASD diagnosis
 
 This research will provide insights into TikTok’s role in mental health and ASD.
