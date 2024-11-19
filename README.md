@@ -1,4 +1,7 @@
 # TiktokChangedASD
+
+Please read through my [powerpoint](https://github.com/biddlebird/TiktokChangedASD/blob/main/Project%204.pdf) to see my thought process and goals for this passion project
+
 This research aims to explore TikTok's influence on Autism Spectrum Disorder (ASD) awareness and support. It involves analyzing ASD-related TikTok content to assess its reach and engagement, and conducting surveys with users to gather insights on their experiences and perceptions. The study will use both quantitative methods to measure content popularity and qualitative methods to understand user impact and community building. Ethical considerations, including informed consent and privacy, will be strictly observed. The findings will offer valuable insights into how TikTok affects public understanding of ASD and supports mental health communities.
 ### Research Project Outline: TikTok's Impact on ASD Awareness
 
