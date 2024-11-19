@@ -1,0 +1,30 @@
+<form action="/api/submitQuestionnaire" method="post">
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age"><br>
+
+    <label for="gender">Gender:</label>
+    <input type="text" id="gender" name="gender"><br>
+
+    <label for="diagnosis">Diagnosis:</label>
+    <input type="text" id="diagnosis" name="diagnosis"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<div id="videoSection">
+    <video src="videoURL" controls></video>
+    <button onclick="sendFeedback(true)">Like</button>
+    <button onclick="sendFeedback(false)">Dislike</button>
+</div>
+
+<script>
+    function sendFeedback(liked) {
+        fetch('/api/submitFeedback', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ userId: 1, videoId: 'video123', liked: liked })
+        }).then(response => response.json())
+          .then(data => console.log(data));
+    }
+</script>
+
